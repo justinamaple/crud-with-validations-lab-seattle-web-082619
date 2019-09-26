@@ -1,0 +1,8 @@
+
+<h2><%= @song.title %></h2>
+<p><%= @song.released %></p>
+<p><%= @song.release_year %></p>
+<p><%= @song.artist_name %></p>
+<p><%= @song.genre %></p>
+<%= link_to "delete", @song, method: :delete %>
+<%= button_to "delete", @song, method: :delete %>
